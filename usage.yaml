@@ -1,0 +1,11 @@
+
+---
+
+### Exemple d'utilisation :
+
+Disons que nous avons un utilisateur `john` qui doit être limité à une plage horaire de 7h00 à 18h00. Voici ce que nous devons faire :
+
+1. **Modifier le script `restrict_access.sh`** pour restreindre `john` :
+
+   ```bash
+   USER_TO_RESTRICT="john"
